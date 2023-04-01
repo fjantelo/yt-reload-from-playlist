@@ -1,0 +1,9 @@
+{
+  "name": "YT Reload from Playlist",
+  "version": "1.0.0",
+  "description": "Reloads an individual YT Video from a Playlist",
+  "manifest_version": 3,
+  "action": {},
+  "background":{"service_worker": "background.js"},
+  "permissions": ["activeTab", "scripting"]
+}
