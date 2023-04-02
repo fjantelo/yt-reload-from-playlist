@@ -1,9 +1,5 @@
 const currentURL = new String(window.location);
-var isYoutubeURL = false;
 if (currentURL.includes("youtube.com") && currentURL.includes("&list") && !currentURL.includes("music.youtube.com")) {
-  isYoutubeURL = true;
-}
-if (isYoutubeURL) {
   var indexEnd = 0;
   for (let i = 0; i < currentURL.length - 5; i++) {
     if (
